@@ -1,0 +1,25 @@
+<body>
+<p><h1>Click the button key in inputs rectangle </p>
+
+<button onclick="myFunction()">calculate</button>
+
+<p id="u"></p>
+<p id="o"></p>
+<script>
+function myFunction() {
+  
+var r = prompt("Enter a whole number for the radius of your circle");
+
+   
+var erimeter = (2 * r * 22/7);
+var aea = r * r * 22/7;
+
+ document.getElementById("u").innerHTML =
+        "Area of circle.:"  + aea;
+ document.getElementById("o").innerHTML =
+        "perimeter of circle:"  + erimeter ;
+}
+</script></h1>
+<style>
+body { background: linear-gradient(#FF1493,#9400D3,#FF1493,#FFFF00)}
+</style> 
